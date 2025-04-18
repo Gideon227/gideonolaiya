@@ -113,8 +113,13 @@ const MenuAnimation = ({ onMenuClick }) => {
                         initial='hidden'
                         animate='visible'
                         exit='exit' >
+<<<<<<< HEAD
                     <Link href='https://www.instagram.com/gideondev_/?hl=en' className='text-[#bbb] leading-6 text-[14px] max-md:text-[12px] tracking-[2px] me-4 '>INSTAGRAM</Link>
                     <Link href='https://www.linkedin.com/in/gideon-olaiya-852057209/' className='text-[#bbb] leading-6 text-[14px] max-md:text-[12px] tracking-[2px] me-4 '>LINKEDIN</Link>
+=======
+                    <Link href='/' className='text-[#bbb] leading-6 text-[14px] max-md:text-[12px] tracking-[2px] me-4 '>INSTAGRAM</Link>
+                    <Link href='/' className='text-[#bbb] leading-6 text-[14px] max-md:text-[12px] tracking-[2px] me-4 '>LINKEDIN</Link>
+>>>>>>> b1c6ecd857f301f6c2eea8eb308ad52ebff5dad0
                     </motion.div>
                 </div>
             </div>

@@ -7,6 +7,7 @@ import { easeIn, easeOut, motion } from "framer-motion"
 
 const Hero = () => {
 
+<<<<<<< HEAD
   const handleClick = (top) => {
     setTimeout(() => {
       window.scrollTo({
@@ -15,6 +16,8 @@ const Hero = () => {
       })
     },1500)
   }
+=======
+>>>>>>> b1c6ecd857f301f6c2eea8eb308ad52ebff5dad0
   return (
     <section className='pt-8 px-2 w-screen'>
       <div className='lg:flex hidden px-10 justify-between'>
@@ -30,7 +33,11 @@ const Hero = () => {
             className='text-[16px] py-2 font-normal text-gray-400 leading-6'
           /></p> */}
 
+<<<<<<< HEAD
           <h1><AnimatedText text={[`I'm Gideon Olaiya—`, 'Full stack website developer & designer.']} className='text-[42px] font-medium text-white'/></h1>
+=======
+          <h1><AnimatedText text={[`I'm Gideon —`, 'Full stack website developer & designer.']} className='text-[42px] font-medium text-white'/></h1>
+>>>>>>> b1c6ecd857f301f6c2eea8eb308ad52ebff5dad0
 
           <motion.div
             initial={{ opacity: 0}}
@@ -38,10 +45,17 @@ const Hero = () => {
             transition={{delay: 1.75, duration: 0.5, ease: easeIn}}
             className="w-40"
           >
+<<<<<<< HEAD
             <button onClick={() => handleClick(1000)} className="text-[16px] group font-medium text-gray-400 leading-5 mt-10 flex flex-col">
               VIEW PROJECTS
               <hr className="text-gray-400 w-[80px] group-hover:w-[140px] transit h-px mt-1.5"/>
             </button>
+=======
+            <Link href='/' className="text-[16px] group font-medium text-gray-400 leading-5 mt-10 flex flex-col">
+              VIEW PROJECTS
+              <hr className="text-gray-400 w-[80px] group-hover:w-[140px] transit h-px mt-1.5"/>
+            </Link>
+>>>>>>> b1c6ecd857f301f6c2eea8eb308ad52ebff5dad0
           </motion.div>
         </div>
 

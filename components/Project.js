@@ -25,6 +25,7 @@ const Projects = () => {
       technologies: ['WEBFLOW', 'HTML', 'CSS', 'JAVASCRIPT']
     },
      {
+<<<<<<< HEAD
       image :'/anonymousmessaging.vercel.app_.png',
       title : 'ANONYMOUS MESSAGING',
       link: 'https://www.careernetworkclub.ca/',
@@ -35,6 +36,18 @@ const Projects = () => {
       title : 'AUTEUR',
       link: 'https://www.auteur.com/',
       technologies: ['SHOPIFY', 'CSS', 'JACASCRIPT']
+=======
+      image :'/Cnc.png',
+      title : 'CAREER NETWORK CLUB',
+      link: 'https://www.careernetworkclub.ca/',
+      technologies: ['WORDPRESS', 'ELEMENTOR', 'MEMBERPRESS', 'WOOCOMMERCE']
+    },
+     {
+      image :'/mirror.png',
+      title : 'MIRROR STORE (IN PRODUCTION)',
+      link: '/',
+      technologies: ['NEXTJS', 'MONGODB', 'TAILWIND CSS', 'NEXT-AUTH']
+>>>>>>> b1c6ecd857f301f6c2eea8eb308ad52ebff5dad0
     }
    ]
   return (
